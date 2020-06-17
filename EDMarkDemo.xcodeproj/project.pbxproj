@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A2732442498C02F0067FA6D /* EDCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2732432498C02E0067FA6D /* EDCircularProgressView.m */; };
+		8A3999482484DF0100BDB419 /* EDDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3999472484DF0100BDB419 /* EDDrawTextView.m */; };
+		8A3C33E3248739CE00F2287D /* EDDrawBlank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C33E2248739CE00F2287D /* EDDrawBlank.m */; };
+		8A3C33E9248795E900F2287D /* EDDrawTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C33E8248795E900F2287D /* EDDrawTopView.m */; };
+		8A3C33EC2487965900F2287D /* EDDrawBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C33EB2487965900F2287D /* EDDrawBottomView.m */; };
+		8A3C33EF2487966900F2287D /* EDDrawPenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C33EE2487966900F2287D /* EDDrawPenView.m */; };
+		8A3C33F224879BFD00F2287D /* EDDrawDotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C33F124879BFD00F2287D /* EDDrawDotButton.m */; };
+		8A3C33F52487BB1200F2287D /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C33F42487BB1200F2287D /* UIColor+Addition.m */; };
+		8A512EEA247CC9C400F49398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A512EE9247CC9C400F49398 /* AppDelegate.m */; };
+		8A512EF0247CC9C400F49398 /* EDDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A512EEF247CC9C400F49398 /* EDDrawViewController.m */; };
+		8A512EF3247CC9C400F49398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A512EF1247CC9C400F49398 /* Main.storyboard */; };
+		8A512EF5247CC9C600F49398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A512EF4247CC9C600F49398 /* Assets.xcassets */; };
+		8A512EF8247CC9C600F49398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A512EF6247CC9C600F49398 /* LaunchScreen.storyboard */; };
+		8A512EFB247CC9C600F49398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A512EFA247CC9C600F49398 /* main.m */; };
+		8A512F04247CCA1D00F49398 /* IMG_20200523_113710.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A512F01247CCA1C00F49398 /* IMG_20200523_113710.jpg */; };
+		8A512F05247CCA1D00F49398 /* EDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A512F03247CCA1C00F49398 /* EDDrawView.m */; };
+		8A512F14247D1FC900F49398 /* EDDrawTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A512F13247D1FC900F49398 /* EDDrawTool.m */; };
+		8A512F1A247D31EB00F49398 /* EDDrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A512F19247D31EB00F49398 /* EDDrawLine.m */; };
+		8A6EB018247E101800967028 /* EDDrawArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB017247E101800967028 /* EDDrawArrow.m */; };
+		8A6EB021247E6D4000967028 /* EDDrawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB020247E6D4000967028 /* EDDrawRect.m */; };
+		8A6EB025247E723C00967028 /* EDDrawText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EB024247E723C00967028 /* EDDrawText.m */; };
+		8AB83E57248A05410038F549 /* EDDrawViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB83E56248A05410038F549 /* EDDrawViewCache.m */; };
+		8AB83E5C248A3CDF0038F549 /* EDDrawCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB83E5B248A3CDE0038F549 /* EDDrawCutView.m */; };
+		9621EA1A26A2EE462191B63C /* Pods_EDMarkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4731B6EF635621681794064 /* Pods_EDMarkDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19E01FF8A6088041AAF2FF0F /* Pods-EDMarkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EDMarkDemo.release.xcconfig"; path = "Target Support Files/Pods-EDMarkDemo/Pods-EDMarkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8A2732422498C02E0067FA6D /* EDCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCircularProgressView.h; sourceTree = "<group>"; };
+		8A2732432498C02E0067FA6D /* EDCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCircularProgressView.m; sourceTree = "<group>"; };
+		8A3999462484DF0100BDB419 /* EDDrawTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawTextView.h; sourceTree = "<group>"; };
+		8A3999472484DF0100BDB419 /* EDDrawTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawTextView.m; sourceTree = "<group>"; };
+		8A3C33E1248739CE00F2287D /* EDDrawBlank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawBlank.h; sourceTree = "<group>"; };
+		8A3C33E2248739CE00F2287D /* EDDrawBlank.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawBlank.m; sourceTree = "<group>"; };
+		8A3C33E7248795E900F2287D /* EDDrawTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawTopView.h; sourceTree = "<group>"; };
+		8A3C33E8248795E900F2287D /* EDDrawTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawTopView.m; sourceTree = "<group>"; };
+		8A3C33EA2487965900F2287D /* EDDrawBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawBottomView.h; sourceTree = "<group>"; };
+		8A3C33EB2487965900F2287D /* EDDrawBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawBottomView.m; sourceTree = "<group>"; };
+		8A3C33ED2487966900F2287D /* EDDrawPenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawPenView.h; sourceTree = "<group>"; };
+		8A3C33EE2487966900F2287D /* EDDrawPenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawPenView.m; sourceTree = "<group>"; };
+		8A3C33F024879BFD00F2287D /* EDDrawDotButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawDotButton.h; sourceTree = "<group>"; };
+		8A3C33F124879BFD00F2287D /* EDDrawDotButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawDotButton.m; sourceTree = "<group>"; };
+		8A3C33F32487BB1200F2287D /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		8A3C33F42487BB1200F2287D /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		8A41641824888FB200552139 /* EDDrawViewConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawViewConstant.h; sourceTree = "<group>"; };
+		8A512EE5247CC9C400F49398 /* EDMarkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDMarkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A512EE8247CC9C400F49398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A512EE9247CC9C400F49398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A512EEE247CC9C400F49398 /* EDDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawViewController.h; sourceTree = "<group>"; };
+		8A512EEF247CC9C400F49398 /* EDDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawViewController.m; sourceTree = "<group>"; };
+		8A512EF2247CC9C400F49398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A512EF4247CC9C600F49398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A512EF7247CC9C600F49398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A512EF9247CC9C600F49398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A512EFA247CC9C600F49398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A512F01247CCA1C00F49398 /* IMG_20200523_113710.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_20200523_113710.jpg; sourceTree = "<group>"; };
+		8A512F02247CCA1C00F49398 /* EDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDDrawView.h; sourceTree = "<group>"; };
+		8A512F03247CCA1C00F49398 /* EDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDDrawView.m; sourceTree = "<group>"; };
+		8A512F12247D1FC900F49398 /* EDDrawTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawTool.h; sourceTree = "<group>"; };
+		8A512F13247D1FC900F49398 /* EDDrawTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawTool.m; sourceTree = "<group>"; };
+		8A512F18247D31EB00F49398 /* EDDrawLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawLine.h; sourceTree = "<group>"; };
+		8A512F19247D31EB00F49398 /* EDDrawLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawLine.m; sourceTree = "<group>"; };
+		8A6EB016247E101800967028 /* EDDrawArrow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawArrow.h; sourceTree = "<group>"; };
+		8A6EB017247E101800967028 /* EDDrawArrow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawArrow.m; sourceTree = "<group>"; };
+		8A6EB01F247E6D4000967028 /* EDDrawRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawRect.h; sourceTree = "<group>"; };
+		8A6EB020247E6D4000967028 /* EDDrawRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawRect.m; sourceTree = "<group>"; };
+		8A6EB023247E723C00967028 /* EDDrawText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawText.h; sourceTree = "<group>"; };
+		8A6EB024247E723C00967028 /* EDDrawText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawText.m; sourceTree = "<group>"; };
+		8AB83E55248A05410038F549 /* EDDrawViewCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawViewCache.h; sourceTree = "<group>"; };
+		8AB83E56248A05410038F549 /* EDDrawViewCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawViewCache.m; sourceTree = "<group>"; };
+		8AB83E5A248A3CDE0038F549 /* EDDrawCutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDrawCutView.h; sourceTree = "<group>"; };
+		8AB83E5B248A3CDE0038F549 /* EDDrawCutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDrawCutView.m; sourceTree = "<group>"; };
+		AD033ADE56321F14B1828E4A /* Pods-EDMarkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EDMarkDemo.debug.xcconfig"; path = "Target Support Files/Pods-EDMarkDemo/Pods-EDMarkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F4731B6EF635621681794064 /* Pods_EDMarkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EDMarkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A512EE2247CC9C400F49398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9621EA1A26A2EE462191B63C /* Pods_EDMarkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A512EDC247CC9C400F49398 = {
+			isa = PBXGroup;
+			children = (
+				8A512EE7247CC9C400F49398 /* EDMarkDemo */,
+				8A512EE6247CC9C400F49398 /* Products */,
+				AC9D30BD7BF93C30CB6706B2 /* Pods */,
+				C184D484CAAA9FC06014FACF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A512EE6247CC9C400F49398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A512EE5247CC9C400F49398 /* EDMarkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A512EE7247CC9C400F49398 /* EDMarkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8A2732422498C02E0067FA6D /* EDCircularProgressView.h */,
+				8A2732432498C02E0067FA6D /* EDCircularProgressView.m */,
+				8A3C33F32487BB1200F2287D /* UIColor+Addition.h */,
+				8A3C33F42487BB1200F2287D /* UIColor+Addition.m */,
+				8A512EE8247CC9C400F49398 /* AppDelegate.h */,
+				8A512EE9247CC9C400F49398 /* AppDelegate.m */,
+				8A512EEE247CC9C400F49398 /* EDDrawViewController.h */,
+				8A512EEF247CC9C400F49398 /* EDDrawViewController.m */,
+				8A512F02247CCA1C00F49398 /* EDDrawView.h */,
+				8A512F03247CCA1C00F49398 /* EDDrawView.m */,
+				8A512F01247CCA1C00F49398 /* IMG_20200523_113710.jpg */,
+				8A512EF1247CC9C400F49398 /* Main.storyboard */,
+				8A512EF4247CC9C600F49398 /* Assets.xcassets */,
+				8A512EF6247CC9C600F49398 /* LaunchScreen.storyboard */,
+				8A512EF9247CC9C600F49398 /* Info.plist */,
+				8A512EFA247CC9C600F49398 /* main.m */,
+				8A512F12247D1FC900F49398 /* EDDrawTool.h */,
+				8A512F13247D1FC900F49398 /* EDDrawTool.m */,
+				8A512F18247D31EB00F49398 /* EDDrawLine.h */,
+				8A512F19247D31EB00F49398 /* EDDrawLine.m */,
+				8A6EB016247E101800967028 /* EDDrawArrow.h */,
+				8A6EB017247E101800967028 /* EDDrawArrow.m */,
+				8A6EB01F247E6D4000967028 /* EDDrawRect.h */,
+				8A6EB020247E6D4000967028 /* EDDrawRect.m */,
+				8A6EB023247E723C00967028 /* EDDrawText.h */,
+				8A6EB024247E723C00967028 /* EDDrawText.m */,
+				8A3999462484DF0100BDB419 /* EDDrawTextView.h */,
+				8A3999472484DF0100BDB419 /* EDDrawTextView.m */,
+				8A3C33E1248739CE00F2287D /* EDDrawBlank.h */,
+				8A3C33E2248739CE00F2287D /* EDDrawBlank.m */,
+				8A3C33E7248795E900F2287D /* EDDrawTopView.h */,
+				8A3C33E8248795E900F2287D /* EDDrawTopView.m */,
+				8A3C33EA2487965900F2287D /* EDDrawBottomView.h */,
+				8A3C33EB2487965900F2287D /* EDDrawBottomView.m */,
+				8A3C33ED2487966900F2287D /* EDDrawPenView.h */,
+				8A3C33EE2487966900F2287D /* EDDrawPenView.m */,
+				8A3C33F024879BFD00F2287D /* EDDrawDotButton.h */,
+				8A3C33F124879BFD00F2287D /* EDDrawDotButton.m */,
+				8A41641824888FB200552139 /* EDDrawViewConstant.h */,
+				8AB83E55248A05410038F549 /* EDDrawViewCache.h */,
+				8AB83E56248A05410038F549 /* EDDrawViewCache.m */,
+				8AB83E5A248A3CDE0038F549 /* EDDrawCutView.h */,
+				8AB83E5B248A3CDE0038F549 /* EDDrawCutView.m */,
+			);
+			path = EDMarkDemo;
+			sourceTree = "<group>";
+		};
+		AC9D30BD7BF93C30CB6706B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD033ADE56321F14B1828E4A /* Pods-EDMarkDemo.debug.xcconfig */,
+				19E01FF8A6088041AAF2FF0F /* Pods-EDMarkDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C184D484CAAA9FC06014FACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4731B6EF635621681794064 /* Pods_EDMarkDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A512EE4247CC9C400F49398 /* EDMarkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A512EFE247CC9C600F49398 /* Build configuration list for PBXNativeTarget "EDMarkDemo" */;
+			buildPhases = (
+				64A37992EEDCC58BAAEE517A /* [CP] Check Pods Manifest.lock */,
+				8A512EE1247CC9C400F49398 /* Sources */,
+				8A512EE2247CC9C400F49398 /* Frameworks */,
+				8A512EE3247CC9C400F49398 /* Resources */,
+				9B9D2C4800E25B3A4926BDC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDMarkDemo;
+			productName = EDMarkDemo;
+			productReference = 8A512EE5247CC9C400F49398 /* EDMarkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A512EDD247CC9C400F49398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = ke;
+				TargetAttributes = {
+					8A512EE4247CC9C400F49398 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A512EE0247CC9C400F49398 /* Build configuration list for PBXProject "EDMarkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A512EDC247CC9C400F49398;
+			productRefGroup = 8A512EE6247CC9C400F49398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A512EE4247CC9C400F49398 /* EDMarkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A512EE3247CC9C400F49398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A512F04247CCA1D00F49398 /* IMG_20200523_113710.jpg in Resources */,
+				8A512EF8247CC9C600F49398 /* LaunchScreen.storyboard in Resources */,
+				8A512EF5247CC9C600F49398 /* Assets.xcassets in Resources */,
+				8A512EF3247CC9C400F49398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64A37992EEDCC58BAAEE517A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EDMarkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9D2C4800E25B3A4926BDC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EDMarkDemo/Pods-EDMarkDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EDMarkDemo/Pods-EDMarkDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EDMarkDemo/Pods-EDMarkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A512EE1247CC9C400F49398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6EB021247E6D4000967028 /* EDDrawRect.m in Sources */,
+				8A512F05247CCA1D00F49398 /* EDDrawView.m in Sources */,
+				8A512EF0247CC9C400F49398 /* EDDrawViewController.m in Sources */,
+				8A3C33E3248739CE00F2287D /* EDDrawBlank.m in Sources */,
+				8A6EB018247E101800967028 /* EDDrawArrow.m in Sources */,
+				8A2732442498C02F0067FA6D /* EDCircularProgressView.m in Sources */,
+				8A3C33EF2487966900F2287D /* EDDrawPenView.m in Sources */,
+				8A3C33F224879BFD00F2287D /* EDDrawDotButton.m in Sources */,
+				8A3999482484DF0100BDB419 /* EDDrawTextView.m in Sources */,
+				8A3C33EC2487965900F2287D /* EDDrawBottomView.m in Sources */,
+				8A3C33E9248795E900F2287D /* EDDrawTopView.m in Sources */,
+				8A512EEA247CC9C400F49398 /* AppDelegate.m in Sources */,
+				8A6EB025247E723C00967028 /* EDDrawText.m in Sources */,
+				8A512F1A247D31EB00F49398 /* EDDrawLine.m in Sources */,
+				8AB83E5C248A3CDF0038F549 /* EDDrawCutView.m in Sources */,
+				8AB83E57248A05410038F549 /* EDDrawViewCache.m in Sources */,
+				8A3C33F52487BB1200F2287D /* UIColor+Addition.m in Sources */,
+				8A512EFB247CC9C600F49398 /* main.m in Sources */,
+				8A512F14247D1FC900F49398 /* EDDrawTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A512EF1247CC9C400F49398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A512EF2247CC9C400F49398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A512EF6247CC9C600F49398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A512EF7247CC9C600F49398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A512EFC247CC9C600F49398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A512EFD247CC9C600F49398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A512EFF247CC9C600F49398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD033ADE56321F14B1828E4A /* Pods-EDMarkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = A68MT549DE;
+				INFOPLIST_FILE = EDMarkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ED.EDMarkDemo.jk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A512F00247CC9C600F49398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E01FF8A6088041AAF2FF0F /* Pods-EDMarkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = A68MT549DE;
+				INFOPLIST_FILE = EDMarkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ED.EDMarkDemo.jk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A512EE0247CC9C400F49398 /* Build configuration list for PBXProject "EDMarkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A512EFC247CC9C600F49398 /* Debug */,
+				8A512EFD247CC9C600F49398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A512EFE247CC9C600F49398 /* Build configuration list for PBXNativeTarget "EDMarkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A512EFF247CC9C600F49398 /* Debug */,
+				8A512F00247CC9C600F49398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A512EDD247CC9C400F49398 /* Project object */;
+}
