@@ -33,6 +33,7 @@
         [clearButton setImage:[UIImage imageNamed:@"ed_image_mark_clear_select"] forState:UIControlStateNormal];
         [clearButton setImage:[UIImage imageNamed:@"ed_image_mark_clear_select"] forState:UIControlStateSelected];
         [clearButton addTarget:self action:@selector(actionClear) forControlEvents:UIControlEventTouchUpInside];
+        clearButton.hidden = YES;
         [self addSubview:clearButton];
         
         UIButton *preButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -60,19 +61,13 @@
         
         [preButton mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(44, 44));
-            make.centerX.equalTo(self);
-            make.bottom.equalTo(self);
-        }];
-        
-        [clearButton mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.size.mas_equalTo(CGSizeMake(44, 44));
-            make.centerY.equalTo(preButton);
-            make.trailing.equalTo(preButton.mas_leading).offset(-10);
+            make.centerY.equalTo(self);
+            make.centerX.equalTo(self).offset(-30);
         }];
         [nextButton mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(44, 44));
-            make.centerY.equalTo(preButton);
-            make.leading.equalTo(preButton.mas_trailing).offset(10);
+            make.centerY.equalTo(self);
+            make.centerX.equalTo(self).offset(30);
         }];
         
         self.preButton = preButton;
